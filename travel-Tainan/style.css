@@ -1,0 +1,19 @@
+#result{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.card-info {
+  margin: 5px;
+  
+}
+.jumbotron {
+  margin-bottom: 25px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  background: url("./field-corn-air-frisch-158827.jpeg");
+  background-size: cover;
+  color: rgb(0, 56, 99);
+  
+}
