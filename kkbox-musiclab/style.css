@@ -1,0 +1,41 @@
+body {
+  background-color: #212529;
+}
+.jumbotron {
+  background-color: currentColor;
+  height: 200px;
+}
+iframe {
+  height: 400px;
+  margin: 5px;
+}
+#albumList {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.search {
+  margin: 25px auto;
+  background-color: aliceblue;
+  width: 500px;
+  height: 44px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+.searchInput {
+  all: unset;
+  font: 16px system-ui;
+  color: black;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+.searchBt {
+  all: unset;
+  cursor: pointer; 
+  height: 44px;
+  padding: 5px;
+}
