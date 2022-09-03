@@ -23,7 +23,7 @@ function result(){
       $('#result').html() +
       `   
         <div class="card card-info" style="width: 18rem;">
-          <img src="${travel[i]["照片連結網址1（提供無版權爭議且可對外流通供應之照片，以讓加值業者可透過本網址連結使用）"]}" class="card-img-top" alt="南鯤鯓代天府山門大牌樓">
+          <img src="${travel[i]["照片連結網址1[提供無版權爭議且可對外流通供應之照片，以讓加值業者可透過本網址連結使用]"]}" class="card-img-top" alt="南鯤鯓代天府山門大牌樓">
           <div class="card-body">
             <h3 class="card-title">${travel[i]["景點中文名稱"]}</h3>
             <h5>${travel[i]["景點英文名稱"]}</h5>    
