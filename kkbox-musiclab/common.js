@@ -5,7 +5,7 @@ function showLoading(){
    
   }
   else {
-    
+    //在選擇元素的開頭插入內容
     $('body').prepend('<div id="spinner" class="spinner-border loading role="status""><span class="sr-only"></span></div>' +
       '<div id="loadingMask" class="loading-mask loading"></div>');
 

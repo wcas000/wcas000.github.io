@@ -25,8 +25,8 @@ function travelApi() {
 function detail() {
   // 景點相關資訊
   $('#title').text(detailInfo[0]["景點中文名稱"]);
-  $('#fbLink').attr('href', detailInfo[0]["臉書粉專連結（選填）"]);
-  $('#mapLink').attr('href', detailInfo[0]["地圖服務連結（選填）(GoogleMap,Bing等) "]);
+  $('#fbLink').attr('href', detailInfo[0]["臉書粉專連結[選填]"]);
+  $('#mapLink').attr('href', detailInfo[0]["地圖服務連結[選填][GoogleMap,Bing等]"]);
   $('#img1').attr('src', detailInfo[0]["照片連結網址1[提供無版權爭議且可對外流通供應之照片，以讓加值業者可透過本網址連結使用]"]);
   $('#imginfo1').text(detailInfo[0]["照片中文說明1[照片連結網址1之文字說明]"]);
   $('#img2').attr('src', detailInfo[0]["照片連結網址2[選填][提供無版權爭議且可對外流通供應之照片，以讓加值業者可透過本網址連結使用]"]);
