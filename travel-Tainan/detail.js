@@ -39,6 +39,7 @@ function detail() {
 
   // 開放時間轉換及當日時間顏色
   let openingArrApi = detailInfo[0]["開放時間"].split('/');
+  //使用 $.grep()取出符合條件的項目
   let openingArr = $.grep(openingArrApi, function(value) { return value !== '' })
   for (let i = 0; i < openingArr.length; i++) {   
     $('#opening').html(
@@ -48,6 +49,7 @@ function detail() {
     `
     )
   }
+  //利用 .eq(index)方法，在今日的地方加上class
   $("[name='today']").eq(new Date().getDay()).addClass('today-color');
 
   // 
