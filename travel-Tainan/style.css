@@ -17,3 +17,7 @@
   color: rgb(0, 56, 99);
   
 }
+.info-wrap {
+  display: flex;
+  justify-content: end;
+}
