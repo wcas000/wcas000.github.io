@@ -85,14 +85,15 @@ function result() {
       `
     <tr id="${tempBookData[i].BookId}" name="trData" >
       
-        <td> <button class="x-button btn btn-danger " data-bs-toggle="modal" data-bs-target="#myModal-delete" bookid="${tempBookData[i].BookId}">X</button></td>
-        <td> <button class="btn btn-primary updateBookById-btn" data-bs-toggle="modal" data-bs-target="#myModal" bookid="${tempBookData[i].BookId}">修改</button></td>
+        <td> <button class="x-button btn btn-outline-danger btn-sm" " data-bs-toggle="modal" data-bs-target="#myModal-delete" bookid="${tempBookData[i].BookId}">X</button></td>
+        <td> <button class="btn btn-outline-info btn-sm updateBookById-btn" data-bs-toggle="modal" data-bs-target="#myModal" bookid="${tempBookData[i].BookId}">修改</button></td>
         <td>${tempBookData[i].BookId}</td>
         <td>${tempBookData[i].BookCategory}</td>
         <td>${tempBookData[i].BookName}</td>
         <td>${tempBookData[i].BookAuthor}</td>
         <td>${tempBookData[i].BookBoughtDate}</td>
         <td>${tempBookData[i].BookPublisher}</td>
+        
 
       </tr>
     `
