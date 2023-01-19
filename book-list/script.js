@@ -92,9 +92,7 @@ function result() {
         <td>${tempBookData[i].BookName}</td>
         <td>${tempBookData[i].BookAuthor}</td>
         <td>${tempBookData[i].BookBoughtDate}</td>
-        <td>${tempBookData[i].BookPublisher}</td>
-        
-
+        <td>${tempBookData[i].BookPublisher}</td>       
       </tr>
     `
     )
