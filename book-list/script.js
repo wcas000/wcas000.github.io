@@ -4,6 +4,7 @@ let tempPage = localStorage.getItem('page');
 let pageSize = 10;
 let filterBook = []
 
+
 $(document).ready(function () {
   //當local storage不等於沒有的時候
   if (localStorage.getItem('bookData') !== null) {
