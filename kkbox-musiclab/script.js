@@ -12,7 +12,7 @@ function showResultByKkboxApi(searchKey) {
     "method": "GET",
     "timeout": 0,
     "headers": {
-      "Authorization": "Bearer 5dXqfIpEBC7ZMWClKx81Pw=="
+      "Authorization": "Bearer rAVzE-MvMR8U8yZ4AFbIpg=="
     },
   };
   showLoading()
@@ -27,7 +27,7 @@ function showResultByKkboxApi(searchKey) {
       }
     }
     for (let x = 0; x < idList.length; x++) {
-      $('#albumList').append(        
+      $('#albumList').append(
         `
       <iframe class="songs" src="https://widget.kkbox.com/v1/?id=${idList[x]}&type=album&terr=TW&lang=en"></iframe>
       `
