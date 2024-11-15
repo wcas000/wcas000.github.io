@@ -12,7 +12,7 @@ function showResultByKkboxApi(searchKey) {
     "method": "GET",
     "timeout": 0,
     "headers": {
-      "Authorization": "Bearer Y08S8tO6PYnaYeM8YdwPHA=="
+      "Authorization": "Bearer bu2bZcnCokAXuS44nREfAg=="
     },
   };
   showLoading()
